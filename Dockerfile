@@ -1,4 +1,4 @@
-FROM docker.io/library/myamazonlinux:latest
+FROM docker.io/library/amazonlinux:latest
 
 RUN set -x \
     && yum install -y wget zip nano less git \
